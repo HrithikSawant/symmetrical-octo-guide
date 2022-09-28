@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#####################################
+# Author: Hrithik Sawant
+# Version: v1.0.0
+# Date: 2022-08-21
+# Description: Show the best of both worlds!
+# Usage: ./cleanup_v1.sh
+#####################################
+
+#Cleanup
+# Run as root,
+
+cd /var/log
+cat /dev/null > messages
+cat /dev/null > wtmp
+echo "Log file cleaned up."
