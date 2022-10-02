@@ -1,0 +1,13 @@
+#!/bin/bash
+
+uptime_check () {
+	local host_ip=$1
+	ping -c 1 ${host_ip} &> /dev/null
+  [ $? == 0 ] && echo "UP ${host_ip}" || echo "Down ${host_ip}"
+}
+
+for ip in $(cat ~/.ssh/config | grep HostName | awk '{print $2}')
+do
+  uptime_check $ip
+done
+ 
