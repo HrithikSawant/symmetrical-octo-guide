@@ -1,0 +1,48 @@
+foo
+└── bar
+    ├── dump
+    │   └── range
+    │       ├── 1
+    │       │   └── data
+    │       │       ├── 0
+    │       │       │   ├── p.txt
+    │       │       │   └── q.txt
+    │       │       ├── 1
+    │       │       │   ├── bat.txt
+    │       │       │   └── sat.txt
+    │       │       └── 2
+    │       │           └── pass.txt
+    │       └── 2
+    │           └── data
+    │               ├── 0
+    │               │   ├── w.txt
+    │               │   └── z.txt
+    │               ├── 1
+    │               │   ├── blue.txt
+    │               │   └── orange.txt
+    │               └── 2
+    │                   └── h.txt
+    └── jump
+        └── range
+            ├── 1
+            │   └── data
+            │       ├── 0
+            │       │   ├── e.txt
+            │       │   └── f.txt
+            │       ├── 1
+            │       │   ├── cat.txt
+            │       │   └── dog.txt
+            │       └── 2
+            │           └── key.txt
+            └── 2
+                └── data
+                    ├── 0
+                    │   ├── r.txt
+                    │   └── y.txt
+                    ├── 1
+                    │   ├── art.txt
+                    │   └── cart.txt
+                    └── 2
+                        └── w.txt
+
+25 directories, 20 files
